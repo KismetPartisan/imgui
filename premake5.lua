@@ -5,7 +5,7 @@ project "ImGui"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("obj/" .. outputdir .. "/%{prj.name}")
 
-	files { "../*.h", "../*.cpp" }
+	files { "*.h", "*.cpp" }
 
 	filter "system:linux"
 		pic "On"
